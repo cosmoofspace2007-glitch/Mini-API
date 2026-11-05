@@ -286,14 +286,4 @@ Tất cả các lỗi đều được xử lý qua `@RestControllerAdvice` trả
 
 ---
 
-## 6. Gợi ý lịch sử Commit Git
 
-Để đạt điểm tối đa cho tiêu chí "Git commit nhỏ, message rõ", bạn có thể commit theo các bước sau:
-1. `chore: initialize Spring Boot 3 Gradle project with dependencies`
-2. `feat: add Company, Job, Application entities and schema.sql`
-3. `feat: add custom exceptions and GlobalExceptionHandler with unified error format`
-4. `feat: implement Company CRUD service and controller`
-5. `feat: implement Job search, filter by location & status, pagination and sort`
-6. `feat: implement apply job API with closed status check and duplicate email validation`
-7. `test: add 7 unit tests for ApplicationService and JobService`
-8. `docs: add comprehensive README with API examples and setup instructions`
